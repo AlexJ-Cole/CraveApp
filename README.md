@@ -26,3 +26,10 @@ that look way sexier than anything built into UIKit.
  I instead used a custom table view and a number of filter functions combined with a search bar to only show data matching the user's queries, but hold on to
  the rest of the menu data. This also lowers the amount of reads from the DB required.
 
+# TODO:
+ - Implement my own cart/ordering system since Crave's current third-party solution is not the best, and keeping users in the app should be better for UX.
+ - After the ordering system, implement a deals page where owners can run promotions for users of the app
+ - Add exclusions/choices/add-ins to each menu item based on its tags
+ - Gather images for all of the menu items. (I have some of these but dimensions are all out of whack)
+ - Finish gathering/writing descriptions for menu items
+ - Work on design. I like the teal, but the white background and single color leaves a lot to be desired.
