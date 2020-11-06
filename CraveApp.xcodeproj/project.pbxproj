@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93545AB9CDD6BE0D47FB7927 /* Pods_CraveApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEA54E2183819836DA9C59A /* Pods_CraveApp.framework */; };
 		FAD3F4EC2549ECAC003DF019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F4EB2549ECAC003DF019 /* AppDelegate.swift */; };
 		FAD3F4EE2549ECAC003DF019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F4ED2549ECAC003DF019 /* SceneDelegate.swift */; };
-		FAD3F4F02549ECAC003DF019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F4EF2549ECAC003DF019 /* ViewController.swift */; };
-		FAD3F4F32549ECAC003DF019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3F4F12549ECAC003DF019 /* Main.storyboard */; };
 		FAD3F4F52549ECAD003DF019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD3F4F42549ECAD003DF019 /* Assets.xcassets */; };
 		FAD3F4F82549ECAD003DF019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3F4F62549ECAD003DF019 /* LaunchScreen.storyboard */; };
+		FAD3F5072549F0CE003DF019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3F5062549F0CE003DF019 /* Main.storyboard */; };
+		FAD3F50B2549F64B003DF019 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F50A2549F64B003DF019 /* HomeViewController.swift */; };
+		FAD3F50E2549F650003DF019 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F50D2549F650003DF019 /* ContactViewController.swift */; };
+		FAD3F5112549F655003DF019 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F5102549F655003DF019 /* MenuViewController.swift */; };
+		FAD3F5192549FC67003DF019 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F5182549FC67003DF019 /* WebViewController.swift */; };
+		FAD3F537254A02C3003DF019 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD3F536254A02C3003DF019 /* GoogleService-Info.plist */; };
+		FAD3F53C254A1943003DF019 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F53B254A1943003DF019 /* FirestoreManager.swift */; };
+		FAD3F540254A1971003DF019 /* FirestoreErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F53F254A1971003DF019 /* FirestoreErrors.swift */; };
+		FAD3F544254A19B6003DF019 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F543254A19B6003DF019 /* Categories.swift */; };
+		FAD3F548254A1D7D003DF019 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F547254A1D7D003DF019 /* MenuItem.swift */; };
+		FAD3F54B254A22B4003DF019 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F54A254A22B4003DF019 /* MenuCollectionViewCell.swift */; };
+		FAD3F550254A3507003DF019 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F54F254A3507003DF019 /* MenuItemViewController.swift */; };
+		FAD3F553254A380F003DF019 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F552254A380F003DF019 /* FilterViewController.swift */; };
+		FAD3F556254A38C2003DF019 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F555254A38C2003DF019 /* FilterTableViewCell.swift */; };
+		FAD3F559254A3D32003DF019 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F558254A3D32003DF019 /* CheckBoxButton.swift */; };
+		FAD3F55F254D20EC003DF019 /* HoursCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F55E254D20EC003DF019 /* HoursCollectionViewCell.swift */; };
+		FAD3F563254D26B1003DF019 /* Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F562254D26B1003DF019 /* Hours.swift */; };
+		FAD3F5662550DF43003DF019 /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3F5652550DF43003DF019 /* MenuItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5770A32B4333E970AF46DB87 /* Pods-CraveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraveApp.debug.xcconfig"; path = "Target Support Files/Pods-CraveApp/Pods-CraveApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8FEA54E2183819836DA9C59A /* Pods_CraveApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CraveApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B155B16CF5D8827BBE6960A6 /* Pods-CraveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraveApp.release.xcconfig"; path = "Target Support Files/Pods-CraveApp/Pods-CraveApp.release.xcconfig"; sourceTree = "<group>"; };
 		FAD3F4E82549ECAC003DF019 /* CraveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD3F4EB2549ECAC003DF019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD3F4ED2549ECAC003DF019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAD3F4EF2549ECAC003DF019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAD3F4F22549ECAC003DF019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD3F4F42549ECAD003DF019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD3F4F72549ECAD003DF019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD3F4F92549ECAD003DF019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD3F5062549F0CE003DF019 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAD3F50A2549F64B003DF019 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAD3F50D2549F650003DF019 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		FAD3F5102549F655003DF019 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FAD3F5182549FC67003DF019 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FAD3F536254A02C3003DF019 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAD3F53B254A1943003DF019 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		FAD3F53F254A1971003DF019 /* FirestoreErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirestoreErrors.swift; path = CraveApp/Resources/FirestoreErrors.swift; sourceTree = SOURCE_ROOT; };
+		FAD3F543254A19B6003DF019 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		FAD3F547254A1D7D003DF019 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		FAD3F54A254A22B4003DF019 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAD3F54F254A3507003DF019 /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		FAD3F552254A380F003DF019 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		FAD3F555254A38C2003DF019 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		FAD3F558254A3D32003DF019 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		FAD3F55E254D20EC003DF019 /* HoursCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAD3F562254D26B1003DF019 /* Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours.swift; sourceTree = "<group>"; };
+		FAD3F5652550DF43003DF019 /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93545AB9CDD6BE0D47FB7927 /* Pods_CraveApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7145379E83833C9FDD957AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA54E2183819836DA9C59A /* Pods_CraveApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D22BDEE48691C75B70F88E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5770A32B4333E970AF46DB87 /* Pods-CraveApp.debug.xcconfig */,
+				B155B16CF5D8827BBE6960A6 /* Pods-CraveApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAD3F4DF2549ECAC003DF019 = {
 			isa = PBXGroup;
 			children = (
 				FAD3F4EA2549ECAC003DF019 /* CraveApp */,
 				FAD3F4E92549ECAC003DF019 /* Products */,
+				94D22BDEE48691C75B70F88E /* Pods */,
+				7145379E83833C9FDD957AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,103 @@
 		FAD3F4EA2549ECAC003DF019 /* CraveApp */ = {
 			isa = PBXGroup;
 			children = (
-				FAD3F4EB2549ECAC003DF019 /* AppDelegate.swift */,
-				FAD3F4ED2549ECAC003DF019 /* SceneDelegate.swift */,
-				FAD3F4EF2549ECAC003DF019 /* ViewController.swift */,
-				FAD3F4F12549ECAC003DF019 /* Main.storyboard */,
-				FAD3F4F42549ECAD003DF019 /* Assets.xcassets */,
-				FAD3F4F62549ECAD003DF019 /* LaunchScreen.storyboard */,
+				FAD3F5032549ECEB003DF019 /* Resources */,
+				FAD3F5022549ECBA003DF019 /* Controller */,
+				FAD3F5012549ECB8003DF019 /* View */,
+				FAD3F5002549ECB4003DF019 /* Model */,
 				FAD3F4F92549ECAD003DF019 /* Info.plist */,
+				FAD3F536254A02C3003DF019 /* GoogleService-Info.plist */,
 			);
 			path = CraveApp;
+			sourceTree = "<group>";
+		};
+		FAD3F5002549ECB4003DF019 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F53E254A1969003DF019 /* Errors */,
+				FAD3F543254A19B6003DF019 /* Categories.swift */,
+				FAD3F547254A1D7D003DF019 /* MenuItem.swift */,
+				FAD3F562254D26B1003DF019 /* Hours.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAD3F5012549ECB8003DF019 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F55C254D20B0003DF019 /* Home */,
+				FAD3F55D254D20C8003DF019 /* Menu */,
+				FAD3F4F42549ECAD003DF019 /* Assets.xcassets */,
+				FAD3F4F62549ECAD003DF019 /* LaunchScreen.storyboard */,
+				FAD3F5062549F0CE003DF019 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAD3F5022549ECBA003DF019 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F56825510C16003DF019 /* Other VCs */,
+				FAD3F5172549FC5A003DF019 /* Core VCs */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAD3F5032549ECEB003DF019 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F4ED2549ECAC003DF019 /* SceneDelegate.swift */,
+				FAD3F4EB2549ECAC003DF019 /* AppDelegate.swift */,
+				FAD3F53B254A1943003DF019 /* FirestoreManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAD3F5172549FC5A003DF019 /* Core VCs */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F50A2549F64B003DF019 /* HomeViewController.swift */,
+				FAD3F50D2549F650003DF019 /* ContactViewController.swift */,
+				FAD3F5102549F655003DF019 /* MenuViewController.swift */,
+			);
+			path = "Core VCs";
+			sourceTree = "<group>";
+		};
+		FAD3F53E254A1969003DF019 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F53F254A1971003DF019 /* FirestoreErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		FAD3F55C254D20B0003DF019 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F55E254D20EC003DF019 /* HoursCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAD3F55D254D20C8003DF019 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F54A254A22B4003DF019 /* MenuCollectionViewCell.swift */,
+				FAD3F555254A38C2003DF019 /* FilterTableViewCell.swift */,
+				FAD3F558254A3D32003DF019 /* CheckBoxButton.swift */,
+				FAD3F5652550DF43003DF019 /* MenuItemDetailView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		FAD3F56825510C16003DF019 /* Other VCs */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3F5182549FC67003DF019 /* WebViewController.swift */,
+				FAD3F54F254A3507003DF019 /* MenuItemViewController.swift */,
+				FAD3F552254A380F003DF019 /* FilterViewController.swift */,
+			);
+			path = "Other VCs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD3F4FC2549ECAD003DF019 /* Build configuration list for PBXNativeTarget "CraveApp" */;
 			buildPhases = (
+				6BB0CDF9C24B902AACFCF183 /* [CP] Check Pods Manifest.lock */,
 				FAD3F4E42549ECAC003DF019 /* Sources */,
 				FAD3F4E52549ECAC003DF019 /* Frameworks */,
 				FAD3F4E62549ECAC003DF019 /* Resources */,
+				5F2C5D435F4CE9B4B6848D0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +270,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD3F537254A02C3003DF019 /* GoogleService-Info.plist in Resources */,
+				FAD3F5072549F0CE003DF019 /* Main.storyboard in Resources */,
 				FAD3F4F82549ECAD003DF019 /* LaunchScreen.storyboard in Resources */,
 				FAD3F4F52549ECAD003DF019 /* Assets.xcassets in Resources */,
-				FAD3F4F32549ECAC003DF019 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F2C5D435F4CE9B4B6848D0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CraveApp/Pods-CraveApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CraveApp/Pods-CraveApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CraveApp/Pods-CraveApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB0CDF9C24B902AACFCF183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CraveApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAD3F4E42549ECAC003DF019 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD3F4F02549ECAC003DF019 /* ViewController.swift in Sources */,
+				FAD3F55F254D20EC003DF019 /* HoursCollectionViewCell.swift in Sources */,
+				FAD3F544254A19B6003DF019 /* Categories.swift in Sources */,
+				FAD3F540254A1971003DF019 /* FirestoreErrors.swift in Sources */,
 				FAD3F4EC2549ECAC003DF019 /* AppDelegate.swift in Sources */,
+				FAD3F53C254A1943003DF019 /* FirestoreManager.swift in Sources */,
+				FAD3F5192549FC67003DF019 /* WebViewController.swift in Sources */,
+				FAD3F556254A38C2003DF019 /* FilterTableViewCell.swift in Sources */,
+				FAD3F5112549F655003DF019 /* MenuViewController.swift in Sources */,
+				FAD3F559254A3D32003DF019 /* CheckBoxButton.swift in Sources */,
+				FAD3F550254A3507003DF019 /* MenuItemViewController.swift in Sources */,
+				FAD3F553254A380F003DF019 /* FilterViewController.swift in Sources */,
+				FAD3F5662550DF43003DF019 /* MenuItemDetailView.swift in Sources */,
+				FAD3F50E2549F650003DF019 /* ContactViewController.swift in Sources */,
+				FAD3F54B254A22B4003DF019 /* MenuCollectionViewCell.swift in Sources */,
 				FAD3F4EE2549ECAC003DF019 /* SceneDelegate.swift in Sources */,
+				FAD3F50B2549F64B003DF019 /* HomeViewController.swift in Sources */,
+				FAD3F563254D26B1003DF019 /* Hours.swift in Sources */,
+				FAD3F548254A1D7D003DF019 /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAD3F4F12549ECAC003DF019 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAD3F4F22549ECAC003DF019 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAD3F4F62549ECAD003DF019 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +479,7 @@
 		};
 		FAD3F4FD2549ECAD003DF019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5770A32B4333E970AF46DB87 /* Pods-CraveApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +499,7 @@
 		};
 		FAD3F4FE2549ECAD003DF019 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B155B16CF5D8827BBE6960A6 /* Pods-CraveApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

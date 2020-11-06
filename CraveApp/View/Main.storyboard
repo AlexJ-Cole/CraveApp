@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aHj-Na-YKV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lM9-pj-5GF">
+            <objects>
+                <tabBarController id="aHj-Na-YKV" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="akv-zA-S9W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="izY-K5-VhN" kind="relationship" relationship="viewControllers" id="Ng9-uU-HDz"/>
+                        <segue destination="ZEw-qS-PLi" kind="relationship" relationship="viewControllers" id="QM0-4G-pjk"/>
+                        <segue destination="P0c-ZQ-pXX" kind="relationship" relationship="viewControllers" id="bUE-DL-fbM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pD-Sz-c3v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1733" y="35"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="zqR-N2-dcK">
+            <objects>
+                <navigationController id="izY-K5-VhN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="P0a-GI-UGA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ASq-Hn-PTt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="B8z-Lp-DW8" kind="relationship" relationship="rootViewController" id="cM5-Ic-dxR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="chU-Vm-Dt6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-341" y="-1027"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="KFK-ZP-YfU">
+            <objects>
+                <viewController id="B8z-Lp-DW8" customClass="HomeViewController" customModule="CraveApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SuR-ot-ORg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eto-wg-fgj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="-1027"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="T4V-EI-Crc">
+            <objects>
+                <navigationController id="ZEw-qS-PLi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Menu" image="bag" catalog="system" selectedImage="bag.fill" id="lQE-I5-oz7"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YlV-A5-9Sc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jjP-dR-UCR" kind="relationship" relationship="rootViewController" id="4BR-oa-364"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PxM-S8-amt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-341" y="-222"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="Bci-Gh-N3c">
+            <objects>
+                <viewController id="jjP-dR-UCR" customClass="MenuViewController" customModule="CraveApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wjo-Lo-KlY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kox-My-5HJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="-222"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="84r-Q3-nRX">
+            <objects>
+                <navigationController id="P0c-ZQ-pXX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contact" image="phone" catalog="system" selectedImage="phone.fill" id="OuH-B2-lBu"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PSN-dP-pue">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kzR-hm-yjP" kind="relationship" relationship="rootViewController" id="Iek-mX-4CT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bxc-dl-9No" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-341" y="586"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="AgL-aq-zEx">
+            <objects>
+                <viewController id="kzR-hm-yjP" customClass="ContactViewController" customModule="CraveApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ay5-mH-0eg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ZJ-9d-JGG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="586"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bag" catalog="system" width="128" height="128"/>
+        <image name="bag.fill" catalog="system" width="128" height="128"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
